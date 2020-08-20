@@ -8,9 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Hello World from component';
 
-
-  onCoolButtonClick() {
+  onCoolButtonClick() : void {
+    alert("Hello World")
 
   }
-
 }
